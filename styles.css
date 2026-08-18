@@ -118,6 +118,12 @@ body:not(.menu-page) .hero .info-item{min-height:76px;padding:.7rem 2.5vw}
 @media(max-width:1050px){body:not(.menu-page) .hero-shade{background:linear-gradient(90deg,rgba(0,0,0,.64) 0%,rgba(0,0,0,.42) 30%,rgba(0,0,0,.11) 49%,rgba(0,0,0,.015) 62%,transparent 74%)}}
 @media(max-width:760px){body:not(.menu-page) .nav nav a{color:#f5f3ed;text-shadow:none}body:not(.menu-page) .nav nav a.active{color:var(--gold);text-shadow:none}body:not(.menu-page) .hero-shade{background:linear-gradient(90deg,rgba(0,0,0,.64) 0%,rgba(0,0,0,.42) 34%,rgba(0,0,0,.1) 53%,rgba(0,0,0,.015) 64%,transparent 74%)}body:not(.menu-page) .hero-content{transform:translate(1vw,10px)}body:not(.menu-page) .hero h1{font-size:clamp(3.35rem,14.8vw,4.9rem);line-height:.91}body:not(.menu-page) .hero .info-item{min-height:40px;padding:.28rem 6vw}}
 @media(max-width:390px){body:not(.menu-page) .hero h1{font-size:3.35rem}}
+
+/* Make the reservation party-size control read as an interactive field. */
+.reserve-form select{min-height:52px;margin-top:.35rem;padding:.8rem 2.8rem .8rem .9rem;background-color:#171717;border:1px solid rgba(201,162,39,.58);border-radius:2px;color:var(--cream);font-weight:400;cursor:pointer}
+.reserve-form select:invalid{color:#c9c5bc}
+.reserve-form select:hover{border-color:var(--gold)}
+.reserve-form select:focus-visible{outline:2px solid rgba(201,162,39,.28);outline-offset:3px}
 @media(max-width:760px){.wordmark-logo{width:132px;max-height:50px}.wordmark.wordmark-script{gap:.5rem}.wordmark-bar-label{font-size:1.2rem;letter-spacing:.2em;margin-right:-.2em}}
 
 /* Homepage phone layout only. */
