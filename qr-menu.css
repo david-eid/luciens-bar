@@ -1,0 +1,23 @@
+.qr-menu-page{min-height:100svh;background:var(--black-soft);overflow-x:hidden}
+.qr-brand{height:84px;display:flex;align-items:center;justify-content:center;background:#070707;border-bottom:1px solid rgba(201,162,39,.2)}
+.qr-brand .wordmark-logo{width:138px;max-height:56px}
+.qr-brand .wordmark-bar-label{font-size:.43rem}
+.qr-menu-content{padding-top:1.5rem}
+.qr-menu-page .main-menu-switch{margin-top:0}
+.qr-script-compat{display:none!important}
+
+@media(max-width:760px){
+  .qr-brand{height:70px}
+  .qr-brand .wordmark-logo{width:118px;max-height:47px}
+  .qr-brand .wordmark-bar-label{font-size:.4rem}
+  .qr-menu-content{padding-top:1rem}
+  .qr-menu-page .main-menu-switch{position:sticky;top:0;z-index:50;margin:0 -6vw 1.25rem;padding:.25rem 6vw .5rem;gap:2.5rem;background:rgba(13,13,13,.97);border-bottom:1px solid rgba(201,162,39,.16)}
+  .qr-menu-page .main-menu-switch button{min-height:42px}
+  .qr-menu-page .category-nav{margin-top:0}
+}
+
+@media(max-width:390px){
+  .qr-brand{height:66px}
+  .qr-brand .wordmark-logo{width:110px;max-height:44px}
+  .qr-menu-page .main-menu-switch{gap:2rem}
+}

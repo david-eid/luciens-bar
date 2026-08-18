@@ -9,6 +9,7 @@ let data,currentMenu='food',currentCategory='';const categoryNav=document.queryS
 if(categoryNav&&menuContent){
   const params=new URLSearchParams(location.search),requestedType=params.get('type'),requestedCategory=params.get('category'),requestedTarget=params.get('target'),requestedSection=params.get('section');currentMenu=requestedType==='drinks'?'drinks':'food';
   const slug=s=>s.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+  const jumpSectionLabel='Jump to section';
   function focusRequestedDestination(){requestAnimationFrame(()=>requestAnimationFrame(()=>{const item=[...menuContent.querySelectorAll('[data-menu-target]')].find(el=>el.dataset.menuTarget===requestedTarget),section=requestedSection&&document.getElementById(requestedSection),target=item||section;if(!target)return;target.scrollIntoView({behavior:'smooth',block:'center'});if(item){item.classList.add('menu-target-highlight');setTimeout(()=>item.classList.remove('menu-target-highlight'),2400)}}))}
   function syncUrl(){const url=new URL(location.href);url.searchParams.set('type',currentMenu);url.searchParams.set('category',slug(currentCategory));history.replaceState(null,'',url)}
   function renderCategories(){const categories=Object.keys(data[currentMenu]);const match=categories.find(c=>slug(c)===requestedCategory);if(!categories.includes(currentCategory))currentCategory=match||categories[0];categoryNav.innerHTML=categories.map(c=>`<button class="${c===currentCategory?'active':''}" data-category="${c}">${c}</button>`).join('');renderItems();categoryNav.querySelector('.active')?.scrollIntoView({behavior:'smooth',block:'nearest',inline:'center'});syncUrl()}
@@ -72,9 +73,8 @@ if(categoryNav&&menuContent){
     menuContent.innerHTML = `
       <div class="drinks-layout">
         <aside class="drinks-sidebar">
-          <div class="drinks-side-header">Jump to section</div>
           <nav class="drinks-side-nav" aria-label="Drinks categories">${navLinks}</nav>
-          <label class="drinks-mobile-label" for="drinks-mobile-nav">Jump to section</label>
+          <label class="drinks-mobile-label" for="drinks-mobile-nav">${jumpSectionLabel}</label>
           <select id="drinks-mobile-nav" class="drinks-mobile-nav" aria-label="Select drinks section">
             ${categories.map((cat, index) => `<option value="#${slug(cat.name)}" ${index===0 ? 'selected' : ''}>${cat.name}</option>`).join('')}
           </select>
@@ -144,9 +144,8 @@ if(categoryNav&&menuContent){
     menuContent.innerHTML = `
       <div class="drinks-layout">
         <aside class="drinks-sidebar">
-          <div class="drinks-side-header">Jump to section</div>
           <nav class="drinks-side-nav" aria-label="Food categories">${navLinks}</nav>
-          <label class="drinks-mobile-label" for="food-mobile-nav">Jump to section</label>
+          <label class="drinks-mobile-label" for="food-mobile-nav">${jumpSectionLabel}</label>
           <select id="food-mobile-nav" class="drinks-mobile-nav" aria-label="Select food section">
             ${categories.map((cat, index) => `<option value="#${slug(cat.name)}" ${index===0 ? 'selected' : ''}>${cat.name}</option>`).join('')}
           </select>

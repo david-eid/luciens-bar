@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Lucien's food and drinks menu for table service.">
+  <title>Table Menu | Lucien's Bar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="qr-menu.css">
+</head>
+<body class="menu-page qr-menu-page">
+  <a class="skip" href="#menu-content">Skip to menu</a>
+
+  <div class="qr-brand" aria-label="Lucien's Bar">
+    <div class="wordmark wordmark-script">
+      <img class="wordmark-logo" src="assets/luciens-script-logo-cream.png" alt="Lucien's">
+      <span class="wordmark-bar-label">BAR</span>
+    </div>
+  </div>
+
+  <main id="main">
+    <section class="menu-page-content qr-menu-content" aria-label="Lucien's menu">
+      <div class="menu-tabs main-menu-switch" role="tablist" aria-label="Choose food or drinks">
+        <button class="active" role="tab" aria-selected="true" data-menu="food">Food</button>
+        <button role="tab" aria-selected="false" data-menu="drinks">Drinks</button>
+      </div>
+      <div class="category-nav" id="category-nav" aria-label="Menu categories"></div>
+      <div class="menu-content" id="menu-content" aria-live="polite"></div>
+      <p class="menu-note">All items are subject to availability. Please tell your server about any allergy or intolerance before ordering. Due to the size of our kitchen, we cannot guarantee 100% gluten-free dishes. Prices include VAT.</p>
+    </section>
+  </main>
+
+  <div class="qr-script-compat" aria-hidden="true">
+    <div class="nav"></div>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links" tabindex="-1"></button>
+    <nav id="nav-links"></nav>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
