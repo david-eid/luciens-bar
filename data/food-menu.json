@@ -1,0 +1,94 @@
+{
+  "categories": [
+    {
+      "name": "Lite Bites",
+      "note": "Choose any 3 for only £14.95 (sharers not included)",
+      "items": [
+        { "name": "Bread & Olives (V)", "price": "£5.95", "description": "Mixed marinated olives served with fresh stone baked bread & olive oil" },
+        { "name": "Nachos", "prices": [{ "label": "Single", "value": "£6.95" }, { "label": "Sharing", "value": "£10.95" }], "description": "Tortilla chips topped with mozzarella cheese, jalapeños, sour cream, guacamole & salsa" },
+        { "name": "Crispy Chicken Strips", "price": "£6.95", "description": "Southern fried chicken strips served with sticky BBQ sauce on a bed of rocket" },
+        { "name": "Loaded Cheesy Fries", "price": "£6.45", "description": "Fries topped with mozzarella cheese & diced bacon drizzled in spicy mayo" },
+        { "name": "Lucien's Loaded Fries", "price": "£6.95", "description": "Fries topped with cheese, bacon, chicken & pepperoni" },
+        { "name": "Classic Garlic Bread (V)", "price": "£4.95", "description": "12\" fresh stone baked pizza base covered with classic garlic butter" },
+        { "name": "Tomato Garlic Bread (V)", "price": "£5.45", "description": "12\" fresh stone baked pizza base covered with classic garlic butter & tomato" },
+        { "name": "Mozzarella Garlic Bread (V)", "price": "£6.95", "description": "12\" fresh stone baked pizza base covered with classic garlic butter & mozzarella" },
+        { "name": "Mozzarella Sticks (V)", "price": "£5.95", "description": "Mozzarella covered in breadcrumbs deep fried served with a sweet chilli dip" },
+        { "name": "Garlic Mushrooms (V)", "price": "£6.95", "description": "Fried crispy mushrooms coated in breadcrumbs, served with garlic mayo" },
+        { "name": "Jalapeño Stuffed with Cream Cheese (V)", "price": "£5.95", "description": "Tantalising combination of zesty jalapeños stuffed with cream cheese in breadcrumbs & sweet chilli dip" },
+        { "name": "Mixed Sharing Board", "price": "£14.95", "description": "Mixed Italian salami & ham served with marinated olives, sundried tomatoes, served with homemade bread. Add a bottle of house wine for £28" }
+      ]
+    },
+    {
+      "name": "Hot Wraps",
+      "note": "Served with chips & coleslaw",
+      "items": [
+        { "name": "Chicken & Black Pepper Mayo", "price": "£12.95", "description": "A flour tortilla packed full with breaded chicken, red onion & lettuce, smothered in black pepper mayonnaise" },
+        { "name": "Sweet Chilli Chicken", "price": "£12.95", "description": "A flour tortilla packed full with breaded chicken, red onion & lettuce, layered in sweet chilli sauce" },
+        { "name": "Chicken Caesar", "price": "£12.95", "description": "A flour tortilla packed full with breaded chicken, red onion & lettuce, topped with caesar dressing" },
+        { "name": "Chicken Fajita", "price": "£12.95", "description": "A flour tortilla packed full with southern fried chicken, fajita seasoning, lettuce, peppers & red onion, drizzled with mayonnaise" },
+        { "name": "Falafel & Mango (V)", "price": "£12.95", "description": "A flour tortilla packed with chickpea & onion falafel, red onion & drizzled in mayonnaise & mango chutney" }
+      ]
+    },
+    {
+      "name": "Salads",
+      "items": [
+        { "name": "Tuna", "price": "£13.45", "description": "Tuna, lettuce, tomato, red onion & olives tossed together in vinaigrette, drizzled with olive oil & a balsamic glaze & slice of lemon" },
+        { "name": "Greek (V)", "price": "£12.95", "description": "Feta cheese tossed in leaves, olives, tomato & cucumber. Smothered in a vinaigrette dressing" },
+        { "name": "Chicken Caesar", "price": "£13.45", "description": "Breaded chicken, red onion & lettuce, topped with caesar dressing" }
+      ]
+    },
+    {
+      "name": "Sides",
+      "items": [
+        { "name": "House Fries", "prices": [{ "label": "Plain", "value": "£3.50" }, { "label": "Cheesy", "value": "£4.50" }] },
+        { "name": "Potato Wedges", "prices": [{ "label": "Plain", "value": "£3.50" }, { "label": "Cheesy", "value": "£4.50" }] },
+        { "name": "Curly Fries", "prices": [{ "label": "Plain", "value": "£3.50" }, { "label": "Cheesy", "value": "£4.50" }] },
+        { "name": "Onion Rings", "price": "£3.50" },
+        { "name": "House Salad", "price": "£3.50" },
+        { "name": "Coleslaw", "price": "£2.45" }
+      ]
+    },
+    {
+      "name": "Burgers",
+      "note": "Hand pressed & chargrilled with a warm brioche style burger bun, lettuce, tomato, onion. Served with chips & coleslaw. Extra toppings are £1.50 each",
+      "items": [
+        { "name": "Lucien's", "price": "£13.95", "description": "Beef burger, bacon, cheddar cheese slices, jalapeños, mayonnaise & salad" },
+        { "name": "Classic Beef", "price": "£11.95", "description": "Beef burger, mayonnaise & salad" },
+        { "name": "Chicken", "price": "£12.95", "description": "Southern fried chicken strips, mayonnaise & salad" },
+        { "name": "Stilton Blue Cheese", "price": "£13.45", "description": "Beef burger, blue stilton, mayonnaise & salad" },
+        { "name": "Chicken & Cheese", "price": "£13.45", "description": "Southern fried chicken strips, cheddar cheese slices, mayonnaise & salad" },
+        { "name": "Black Pepper Mayo", "price": "£12.95", "description": "Beef burger, black pepper mayonnaise & salad" },
+        { "name": "Falafel (V)", "price": "£11.95", "description": "Chickpea & onion falafel, mayonnaise & salad" }
+      ]
+    },
+    {
+      "name": "Pizzas",
+      "note": "Homemade, stonebaked, approx. 12\" base. Extra toppings are £1.50 each",
+      "items": [
+        { "name": "Ham & Mushroom", "price": "£12.45", "description": "Mozzarella cheese, tomato, prosciutto ham, mushrooms, & oregano" },
+        { "name": "Mexico City", "price": "£13.95", "description": "Chicken, chorizo, jalapeños, red onion, mozzarella, tomato & oregano" },
+        { "name": "Pepperoni Feast", "price": "£12.45", "description": "Mozzarella cheese, tomato, pepperoni & oregano. Add jalapeños for an extra £1" },
+        { "name": "New York", "price": "£13.95", "description": "Mozzarella cheese, tomato, BBQ chicken, red onions, mixed peppers, BBQ sauce, & oregano" },
+        { "name": "Florence", "price": "£13.45", "description": "Mozzarella cheese, tomato, pepperoni, ham, sundried tomato, basil pesto, olives, & oregano" },
+        { "name": "Tokyo", "price": "£13.95", "description": "Mozzarella cheese, tomato, tuna, olives, red onion, rocket, & oregano" },
+        { "name": "Margarita (V)", "price": "£10.95", "description": "Mozzarella cheese, tomato & oregano" },
+        { "name": "Cheese Deluxe (V)", "price": "£13.45", "description": "Goats cheese, stilton, brie, mozzarella, tomato, & oregano" },
+        { "name": "Veggie Special (V)", "price": "£11.95", "description": "Mozzarella cheese, tomato, mixed peppers, mushrooms, red onion, olives & oregano" },
+        { "name": "Melborne (V)", "price": "£12.95", "description": "Brie, caramelised red onion chutney, mozzarella, tomato, rocket, balsamic glaze, & oregano" },
+        { "name": "Cairo (V)", "price": "£13.45", "description": "Goat's cheese, tomato, basil pesto, caramelised onion chutney, mozzarella, mixed peppers & oregano" }
+      ]
+    },
+    {
+      "name": "Kid's Menu",
+      "note": "£7.95 · Under 10's only. All served with a soft drink. Add a scoop of ice cream for £1.00",
+      "items": [
+        { "name": "Cheesy Pizza (V)", "description": "Mozzarella cheese & tomato" },
+        { "name": "Ham Pizza", "description": "Mozzarella cheese, tomato & ham" },
+        { "name": "Pepperoni Pizza", "description": "Mozzarella cheese, tomato & pepperoni" },
+        { "name": "Chicken Strips", "description": "3 chicken strips & fries" },
+        { "name": "Burger & Fries", "description": "Beef burger, house fries & tomato ketchup" },
+        { "name": "Cheesy Garlic Bread (V)", "description": "Pizza base, garlic & cheese" }
+      ]
+    }
+  ]
+}

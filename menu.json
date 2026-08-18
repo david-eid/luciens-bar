@@ -1,0 +1,91 @@
+{
+  "food": {
+    "Lite Bites": [
+      {"name":"Bread & Olives","description":"Mixed marinated olives served with fresh stone-baked bread and olive oil.","price":"£5.95","v":true},
+      {"name":"Classic Garlic Bread","description":"12-inch fresh stone-baked pizza base covered with classic garlic butter.","price":"£4.95","v":true},
+      {"name":"Tomato Garlic Bread","description":"12-inch fresh stone-baked pizza base with classic garlic butter and tomato.","price":"£5.45","v":true},
+      {"name":"Mozzarella Garlic Bread","description":"12-inch fresh stone-baked pizza base with classic garlic butter and mozzarella.","price":"£6.95","v":true},
+      {"name":"Nachos","description":"Tortilla chips topped with mozzarella, jalapeños, sour cream, guacamole and salsa.","price":"£6.45","v":true},
+      {"name":"Crispy Chicken Strips","description":"Southern-fried chicken strips with sticky BBQ sauce on rocket.","price":"£5.95"},
+      {"name":"Mozzarella Sticks","description":"Breaded mozzarella, deep fried and served with sweet chilli dip.","price":"£5.95","v":true},
+      {"name":"Garlic Mushrooms","description":"Crispy breaded mushrooms served with garlic mayonnaise.","price":"£6.95","v":true},
+      {"name":"Jalapeños Stuffed with Cream Cheese","description":"Zesty jalapeños with cream cheese in breadcrumbs and sweet chilli dip.","price":"£5.95","v":true},
+      {"name":"Mixed Sharing Board","description":"Italian salami and ham with marinated olives, sundried tomatoes and homemade bread. Add a bottle of house wine for £28.","price":"£14.95"}
+    ],
+    "Hot Wraps": [
+      {"name":"Chicken & Black Pepper Mayo","description":"Breaded chicken, red onion and lettuce with black pepper mayonnaise. Served with chips and coleslaw.","price":"£12.95"},
+      {"name":"Sweet Chilli Chicken","description":"Breaded chicken, red onion and lettuce layered with sweet chilli sauce. Served with chips and coleslaw.","price":"£12.95"},
+      {"name":"Chicken Fajita","description":"Southern-fried chicken, fajita seasoning, lettuce, peppers, red onion and mayonnaise. Served with chips and coleslaw.","price":"£12.95"},
+      {"name":"Chicken Caesar","description":"Breaded chicken, red onion and lettuce with Caesar dressing. Served with chips and coleslaw.","price":"£12.95"},
+      {"name":"Falafel & Mango","description":"Chickpea and onion falafel, red onion, lettuce, mayonnaise and mango chutney. Served with chips and coleslaw.","price":"£12.95","v":true}
+    ],
+    "Salads": [
+      {"name":"Tuna","description":"Tuna, lettuce, tomato, red onion and olives in vinaigrette with olive oil, balsamic glaze and lemon.","price":"£13.45"},
+      {"name":"Greek","description":"Feta, leaves, olives, tomato and cucumber with vinaigrette.","price":"£12.95","v":true},
+      {"name":"Chicken Caesar","description":"Breaded chicken, red onion and lettuce with Caesar dressing.","price":"£13.45"}
+    ],
+    "Burgers": [
+      {"name":"Lucien's","description":"Beef burger, bacon, cheddar, jalapeños, mayonnaise and salad.","price":"£13.95"},
+      {"name":"Black Pepper Mayo","description":"Beef burger, black pepper mayonnaise and salad.","price":"£12.95"},
+      {"name":"Classic Beef","description":"Beef burger, mayonnaise and salad.","price":"£11.95"},
+      {"name":"Falafel","description":"Chickpea and onion falafel, mayonnaise and salad.","price":"£11.95","v":true},
+      {"name":"Chicken","description":"Southern-fried chicken strips, mayonnaise and salad.","price":"£12.45"},
+      {"name":"Stilton Blue Cheese","description":"Beef burger, blue Stilton, mayonnaise and salad.","price":"£12.95"},
+      {"name":"Chicken & Cheese","description":"Southern-fried chicken strips, cheddar, mayonnaise and salad.","price":"£13.45"}
+    ],
+    "Pizzas": [
+      {"name":"Margarita","description":"Mozzarella, tomato and oregano.","price":"£10.95","v":true},
+      {"name":"Veggie Special","description":"Mozzarella, tomato, peppers, mushrooms, red onion, olives and oregano.","price":"£11.95","v":true},
+      {"name":"Ham & Mushroom","description":"Mozzarella, tomato, prosciutto ham, mushrooms and oregano.","price":"£11.95"},
+      {"name":"Mexico City","description":"Chicken, chorizo, jalapeños, red onion, mozzarella, tomato and oregano.","price":"£13.95"},
+      {"name":"Melborne","description":"Brie, caramelised red onion chutney, mozzarella, tomato, rocket, balsamic glaze and oregano.","price":"£12.95","v":true},
+      {"name":"Cairo","description":"Goat's cheese, tomato, basil pesto, caramelised onion chutney, mozzarella, peppers and oregano.","price":"£13.45","v":true},
+      {"name":"New York","description":"Mozzarella, tomato, BBQ chicken, red onions, peppers, BBQ sauce and oregano.","price":"£13.45"},
+      {"name":"Tokyo","description":"Mozzarella, tomato, tuna, olives, red onion, rocket and oregano.","price":"£13.95"},
+      {"name":"Florence","description":"Mozzarella, tomato, pepperoni, ham, sundried tomato, basil pesto, olives and oregano.","price":"£13.95"},
+      {"name":"Cheese Deluxe","description":"Goat's cheese, Stilton, brie, mozzarella, tomato and oregano.","price":"£13.45","v":true},
+      {"name":"Pepperoni Feast","description":"Mozzarella, tomato, pepperoni and oregano.","price":"£12.45"}
+    ],
+    "Sides": [
+      {"name":"House Fries","price":"Plain £3.50 · Cheesy £4.50"},{"name":"Potato Wedges","price":"Plain £3.50 · Cheesy £4.50"},{"name":"Curly Fries","price":"Plain £3.50 · Cheesy £4.50"},{"name":"Onion Rings","price":"£3.50"},{"name":"House Salad","price":"£3.50"},{"name":"Coleslaw","price":"£2.45"},{"name":"Lucien's Loaded Fries","description":"Fries with cheese, bacon, chicken and pepperoni.","price":"Single £6.95 · Sharing £10.95"},{"name":"Loaded Cheesy Fries","description":"Fries with mozzarella and diced bacon, drizzled with spicy mayonnaise.","price":"£6.95"}
+    ],
+    "Kids": [
+      {"name":"Cheesy Pizza","description":"Mozzarella and tomato. Under 10s only; served with a soft drink.","price":"£7.95","v":true},{"name":"Ham Pizza","description":"Mozzarella, tomato and ham. Under 10s only; served with a soft drink.","price":"£7.95"},{"name":"Pepperoni Pizza","description":"Mozzarella, tomato and pepperoni. Under 10s only; served with a soft drink.","price":"£7.95"},{"name":"Burger & Fries","description":"Beef burger, house fries and tomato ketchup. Under 10s only; served with a soft drink.","price":"£7.95"},{"name":"Chicken Strips","description":"Three chicken strips and fries. Under 10s only; served with a soft drink.","price":"£7.95"},{"name":"Cheesy Garlic Bread","description":"Pizza base with garlic and cheese. Under 10s only; served with a soft drink.","price":"£7.95","v":true}
+    ]
+  },
+  "drinks": {
+    "Vodka Cocktails": [
+      {"name":"Pornstar Martini","description":"Vodka, Passoã, passionfruit syrup, lime juice, orange juice and sugar syrup. Add a shot of prosecco for £1.","price":"£8.45"},{"name":"Black Russian","description":"Vodka, coffee liqueur and Pepsi.","price":"£7.45"},{"name":"Sex on the Beach","description":"Vodka, peach schnapps, orange juice, cranberry juice and grenadine.","price":"£7.45"},{"name":"M.F.A.N Girl","description":"Vodka, pink gin, lime, cranberry juice and lemonade.","price":"£7.95"},{"name":"Raspberry Fizz","description":"Vodka, raspberry syrup, cranberry juice and lemonade.","price":"£7.95"},{"name":"Espresso Martini","description":"Vodka, coffee liqueur, espresso and sugar syrup.","price":"£8.45"},{"name":"Woo Woo","description":"Vodka, peach schnapps, cranberry juice, lemonade and a squeeze of lime.","price":"£7.45"},{"name":"Blue Bubble","description":"Vodka, bubble-gum syrup, WKD Blue and lemonade.","price":"£8.45"},{"name":"Purple Rain","description":"Vodka, peach schnapps, blue curaçao, lemonade and grenadine.","price":"£7.95"},{"name":"Truth or Dare","description":"Watermelon vodka, bubble-gum syrup, lime and energy drink.","price":"£7.95"}
+    ],
+    "Rum Cocktails": [
+      {"name":"Hurricane","description":"Dark rum, passionfruit syrup, orange juice, sugar syrup and grenadine.","price":"£7.95"},{"name":"Raspberry Mojito","description":"White rum, mint leaves, raspberry syrup, soda and lime.","price":"£8.45"},{"name":"Mojito","description":"White rum, mint leaves, sugar syrup, soda and lime.","price":"£8.45"},{"name":"Frozen Strawberry Daiquiri","description":"White rum, strawberry, lime, sugar syrup and lemonade.","price":"£8.45"},{"name":"Frozen Bubble-Gum Daiquiri","description":"White rum, pink bubble-gum syrup and lemonade.","price":"£8.45"},{"name":"Frozen Passionfruit Daiquiri","description":"White rum, passionfruit syrup, orange juice and lime.","price":"£8.45"},{"name":"Barbados Surprise","description":"White rum, blue curaçao, grenadine and orange juice.","price":"£7.95"},{"name":"Zombie","description":"Mango and pineapple rum, white rum, lime, grenadine and energy drink.","price":"£7.95"},{"name":"Bonita","description":"Peach schnapps, tiki rum, raspberry syrup, lemonade and cranberry juice.","price":"£7.95"}
+    ],
+    "Other Cocktails": [
+      {"name":"Strawberry Gin Fizz","description":"Gin, strawberry syrup and lemonade.","price":"£7.45"},{"name":"Negroni","description":"Gin, Campari, sweet vermouth and orange peel.","price":"£7.95"},{"name":"Tequila Sunrise","description":"Tequila, triple sec, orange juice and grenadine.","price":"£7.95"},{"name":"Aperol Spritz","description":"Aperol, prosecco and soda.","price":"£7.95"},{"name":"Rob Roy","description":"Whiskey, sweet vermouth and bitters.","price":"£7.95"}
+    ],
+    "Cocktail Trees": [
+      {"name":"Aperol Spritz","price":"£22.00"},{"name":"Whitley Neill Spritz","description":"Topped with tonic or lemonade.","price":"£24.00"},{"name":"Pornstar Martini","description":"Served with 4 shots of prosecco. Add a bottle of prosecco for £16.","price":"£24.00"},{"name":"Espresso Martini","price":"£24.00"}
+    ],
+    "Mocktails": [
+      {"name":"Sunrise","description":"Orange juice and grenadine.","price":"£4.95"},{"name":"Night Life","description":"Lemonade, passionfruit syrup and grenadine.","price":"£4.95"},{"name":"Berry Fizz","description":"Raspberry syrup, cranberry juice and lemonade.","price":"£4.95"},{"name":"Noo Woo","description":"Strawberry, passionfruit, grenadine and cranberry juice.","price":"£4.95"},{"name":"Nojito","description":"Mint, soda, sugar syrup and lime.","price":"£5.45"}
+    ],
+    "Wine & Fizz": [
+      {"name":"Pinot Grigio","description":"Italy. Versare; light, fresh and crisp with attractive aromas and flavours of lemon, apple and nuts.","price":"125ml £4.40 · 175ml £5.40 · 250ml £6.40 · Bottle £17"},{"name":"Chardonnay","description":"Argentina. Pablo Cortez Selection; melon, ripe pear, violets and tangerine.","price":"125ml £5.40 · 175ml £6.40 · 250ml £7.40 · Bottle £20"},{"name":"Sauvignon Blanc","description":"New Zealand. Riversdale; light and fresh with grass, gooseberry, asparagus and citrus aromas.","price":"125ml £6.40 · 175ml £7.40 · 250ml £8.40 · Bottle £23"},{"name":"Prosecco","description":"Italy. Nua; light, fresh and well-balanced with melon and green apple.","price":"200ml £7.45 · 700ml £21.95"},{"name":"Pinot Rosé","description":"Italy. Versare; elegant and dry with ripe strawberry and raspberry fruits balanced by fresh acidity.","price":"125ml £4.40 · 175ml £5.40 · 250ml £6.40 · Bottle £17"},{"name":"Zinfandel Rosé","description":"Pink Orchid, USA; flavourful and off-dry with notes of baked summer pudding, lychees and exotic fruit.","price":"125ml £5.40 · 175ml £6.40 · 250ml £7.40 · Bottle £20"},{"name":"Merlot","description":"Italy. Versare; bramble fruit, ripe plum and cedar.","price":"125ml £4.40 · 175ml £5.40 · 250ml £6.40 · Bottle £17"},{"name":"Shiraz","description":"South Africa. Cape Marlin; juicy red and black fruits, pepper and smoke.","price":"125ml £5.40 · 175ml £6.40 · 250ml £7.40 · Bottle £20"},{"name":"Rioja","description":"Spain. Senorial; light-bodied with baked raspberry fruit.","price":"125ml £6.40 · 175ml £7.40 · 250ml £8.40 · Bottle £23"}
+    ],
+    "Beer & Ale": [
+      {"name":"Fosters","description":"Draught · 3.4% ABV","price":"Ask at bar"},{"name":"Strongbow Dark Fruits","description":"Draught · 4.0% ABV","price":"Ask at bar"},{"name":"Cruzcampo","description":"Draught · 4.4% ABV","price":"Ask at bar"},{"name":"Birra Moretti","description":"Draught · 4.6% ABV","price":"Ask at bar"},{"name":"Strongbow Original","description":"Draught · 4.5% ABV","price":"Ask at bar"},{"name":"John Smiths","description":"Draught · 3.4% ABV","price":"Ask at bar"},{"name":"Guinness","description":"Draught · 4.1% ABV","price":"Ask at bar"},{"name":"Beavertown Neck Oil","description":"Draught · 4.3% ABV","price":"Ask at bar"},{"name":"Kronenbourg 1664","description":"Draught · 4.6% ABV","price":"Ask at bar"},{"name":"Black Sheep Ale","description":"Draught · 3.8% ABV","price":"Ask at bar"},{"name":"Desperados","description":"Bottle","price":"Ask at bar"},{"name":"Corona","description":"Bottle","price":"Ask at bar"},{"name":"Blue WKD","description":"Bottle","price":"Ask at bar"},{"name":"Kopparberg","description":"Bottle","price":"Ask at bar"},{"name":"Peroni","description":"Bottle","price":"Ask at bar"},{"name":"Inchs","description":"Bottle","price":"Ask at bar"},{"name":"Budweiser","description":"Bottle","price":"Ask at bar"}
+    ],
+    "Alcohol Free Beers & Ale": [
+      {"name":"Guinness 00","description":"Can","price":"Ask at bar"},{"name":"Peroni 00","description":"Bottle","price":"Ask at bar"},{"name":"Kopparberg 00","description":"Bottle","price":"Ask at bar"}
+    ],
+    "Milkshakes": [
+      {"name":"Chocolate Heaven","description":"Ice cream, chocolate powder, chocolate sauce, topped with squirty cream and chocolate drops.","price":"£5.45"},{"name":"Bi-Scoffing","description":"Ice cream, Biscoff spread, topped with squirty cream and Biscoff biscuits.","price":"£5.45"},{"name":"Vanilla Dream","description":"Vanilla ice cream, milk, topped with squirty cream and marshmallows.","price":"£5.45"}
+    ],
+    "Cold Drinks": [
+      {"name":"Pepsi Max","price":"Ask at bar"},{"name":"Diet Pepsi","price":"Ask at bar"},{"name":"Orange Juice","price":"Ask at bar"},{"name":"Apple Juice","price":"Ask at bar"},{"name":"Cranberry Juice","price":"Ask at bar"},{"name":"J20","price":"Ask at bar"},{"name":"R Whites Lemonade","price":"Ask at bar"},{"name":"Fever Tree Tonic","price":"Ask at bar"}
+    ],
+    "Hot Drinks": [
+      {"name":"Espresso","price":"£2.90"},{"name":"Cappuccino","price":"£3.70"},{"name":"Café Latte","price":"£3.70"},{"name":"Americano","price":"£3.55"},{"name":"Pot of Tea","price":"£2.80"},{"name":"Speciality Tea","price":"£3.00"},{"name":"Hot Chocolate","price":"£3.90"},{"name":"Hot Chocolate Deluxe","price":"£4.90"}
+    ]
+  }
+}

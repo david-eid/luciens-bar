@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore Lucien's food and drinks menus in Hornsea.">
+  <title>Our Menu | Lucien's Bar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="menu-page">
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="nav scrolled" id="nav">
+    <a class="wordmark wordmark-script" href="index.html" aria-label="Lucien's Bar home"><img class="wordmark-logo" src="assets/luciens-script-logo-cream.png" alt="Lucien's"><span class="wordmark-bar-label">BAR</span></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links"><span></span><span></span></button>
+    <nav id="nav-links" aria-label="Main navigation">
+      <a href="index.html">Home</a><a href="index.html#about">About</a><a class="active" href="menu.html">Menu</a><a href="index.html#gallery">Gallery</a><a href="index.html#reservations">Reservations</a><a href="index.html#contact">Contact</a>
+    </nav>
+    <a class="btn btn-outline nav-cta" href="index.html#reservations"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M7 3v3M17 3v3M4.5 9.5h15M6.5 5h11a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2h-11a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2Z"/></svg><span>Reserve a table</span></a>
+  </header>
+
+  <main id="main">
+    <section class="menu-hero"><div class="menu-hero-shade"></div><div class="reveal"><p class="eyebrow">Lucien's Hornsea</p><h1>Our Menu</h1><p>Freshly prepared food, cocktails, wine and more.</p></div></section>
+    <section class="menu-page-content">
+      <div class="menu-tabs main-menu-switch" role="tablist" aria-label="Choose food or drinks"><button class="active" role="tab" aria-selected="true" data-menu="food">Food</button><button role="tab" aria-selected="false" data-menu="drinks">Drinks</button></div>
+      <div class="category-nav" id="category-nav" aria-label="Menu categories"></div>
+      <div class="menu-content" id="menu-content" aria-live="polite"></div>
+      <p class="menu-note">All items are subject to availability. Please tell your server about any allergy or intolerance before ordering. Due to the size of our kitchen, we cannot guarantee 100% gluten-free dishes. Prices include VAT.</p>
+    </section>
+  </main>
+
+  <footer><div class="footer-brand"><h2>LUCIEN'S</h2><p>Food · Cocktails · Good Times</p></div><div class="gold-rule"></div><div class="footer-grid"><div><h3>Explore</h3><a href="menu.html?type=food">Food Menu</a><a href="menu.html?type=drinks">Drinks Menu</a><a href="index.html#gallery">Gallery</a><a href="index.html#reservations">Reservations</a></div><div><h3>Visit</h3><p>5–7 Newbegin<br>Hornsea<br>HU18 1AB</p></div><div><h3>Contact</h3><a href="tel:+441964535507">+44 1964 535507</a><a href="mailto:lucieneid@hotmail.com">lucieneid@hotmail.com</a></div><div><h3>Follow</h3><a href="https://www.instagram.com/luciensbar/" target="_blank" rel="noopener">@luciensbar</a><a>Lucien's Wine Bar / Hornsea</a></div></div><div class="footer-bottom"><span>© 2026 Lucien's</span><span>Hornsea, East Yorkshire</span></div><div class="developer-signature"><span>Made by <b>David Eid</b> · Computer Engineer</span><a href="tel:+96176033933">+961 76 033 933</a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
