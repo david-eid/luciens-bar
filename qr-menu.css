@@ -5,6 +5,15 @@
 .qr-menu-content{padding-top:1.5rem}
 .qr-menu-page .main-menu-switch{margin-top:0}
 .qr-script-compat{display:none!important}
+.qr-menu-page select.drinks-mobile-nav{
+  -webkit-appearance:none!important;
+  -moz-appearance:none!important;
+  appearance:none!important;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 22 22'%3E%3Cpath d='M4 8l7 7 7-7' fill='none' stroke='%23FFFFFF' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E")!important;
+  background-repeat:no-repeat!important;
+  background-position:right 20px center!important;
+  background-size:22px 22px!important;
+}
 
 @media(max-width:760px){
   .qr-brand{height:70px}
