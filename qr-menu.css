@@ -14,19 +14,29 @@
   .qr-menu-page .main-menu-switch{position:sticky;top:0;z-index:50;margin:0 -6vw 1.25rem;padding:.25rem 6vw .5rem;gap:2.5rem;background:rgba(13,13,13,.97);border-bottom:1px solid rgba(201,162,39,.16)}
   .qr-menu-page .main-menu-switch button{min-height:42px}
   .qr-menu-page .category-nav{margin-top:0}
+  .qr-menu-page .menu-select-wrap{display:block;position:relative}
+  .qr-menu-page .menu-select-wrap::after{
+    content:"";
+    position:absolute;
+    top:50%;
+    right:20px;
+    width:22px;
+    height:22px;
+    background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 22 22'%3E%3Cpath d='M4 8l7 7 7-7' fill='none' stroke='%23C9A227' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/22px 22px no-repeat;
+    transform:translateY(-50%);
+    pointer-events:none;
+  }
   .qr-menu-page .drinks-mobile-nav{
     min-height:60px;
     padding:0 4rem 0 1.25rem;
     border:1px solid #C9A227;
     background-color:#0b0b0b;
-    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M5 9l7 7 7-7' fill='none' stroke='%23C9A227' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
-    background-repeat:no-repeat;
-    background-position:right 1.25rem center;
-    background-size:24px 24px;
+    background-image:none;
     color:var(--cream);
     cursor:pointer;
     appearance:none;
     -webkit-appearance:none;
+    -moz-appearance:none;
   }
 }
 

@@ -75,9 +75,9 @@ if(categoryNav&&menuContent){
         <aside class="drinks-sidebar">
           <nav class="drinks-side-nav" aria-label="Drinks categories">${navLinks}</nav>
           <label class="drinks-mobile-label" for="drinks-mobile-nav">${jumpSectionLabel}</label>
-          <select id="drinks-mobile-nav" class="drinks-mobile-nav" aria-label="Select drinks section">
+          <span class="menu-select-wrap"><select id="drinks-mobile-nav" class="drinks-mobile-nav" aria-label="Select drinks section">
             ${categories.map((cat, index) => `<option value="#${slug(cat.name)}" ${index===0 ? 'selected' : ''}>${cat.name}</option>`).join('')}
-          </select>
+          </select></span>
         </aside>
         <div class="drinks-main">${sections}</div>
       </div>
@@ -146,9 +146,9 @@ if(categoryNav&&menuContent){
         <aside class="drinks-sidebar">
           <nav class="drinks-side-nav" aria-label="Food categories">${navLinks}</nav>
           <label class="drinks-mobile-label" for="food-mobile-nav">${jumpSectionLabel}</label>
-          <select id="food-mobile-nav" class="drinks-mobile-nav" aria-label="Select food section">
+          <span class="menu-select-wrap"><select id="food-mobile-nav" class="drinks-mobile-nav" aria-label="Select food section">
             ${categories.map((cat, index) => `<option value="#${slug(cat.name)}" ${index===0 ? 'selected' : ''}>${cat.name}</option>`).join('')}
-          </select>
+          </select></span>
         </aside>
         <div class="drinks-main">${sections}</div>
       </div>
