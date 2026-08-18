@@ -32,6 +32,14 @@
   }
 }
 
+@supports (-webkit-touch-callout:none){
+  @media(max-width:760px){
+    .qr-menu-page .drinks-mobile-nav{
+      background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 22 22'%3E%3Cpath d='M4 8l7 7 7-7' fill='none' stroke='%23FFFFFF' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E")!important;
+    }
+  }
+}
+
 @media(max-width:390px){
   .qr-brand{height:66px}
   .qr-brand .wordmark-logo{width:110px;max-height:44px}
